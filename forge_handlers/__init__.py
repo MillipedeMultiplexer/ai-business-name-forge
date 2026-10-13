@@ -1,0 +1,1 @@
+"""Thin handlers — parse input, call services, render output."""
