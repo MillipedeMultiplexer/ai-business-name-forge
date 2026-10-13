@@ -1,0 +1,1 @@
+"""Core naming engine — no I/O, no framework, pure logic."""
