@@ -1,0 +1,1 @@
+"""Adapters — LLM backends, storage, and platform glue."""
