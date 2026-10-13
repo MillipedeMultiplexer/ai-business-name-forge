@@ -1,0 +1,1 @@
+"""Name-construction patterns — morpheme recipes for forging names."""
