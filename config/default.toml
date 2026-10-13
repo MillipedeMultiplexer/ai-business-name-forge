@@ -1,0 +1,24 @@
+# ai-business-name-forge — default configuration
+# Override per-project by copying to config/local.toml and passing --config.
+
+[meta]
+profile = "default"
+
+[llm]
+# Point this at a local GGUF if you have one. Leave null to use the
+# deterministic morpheme fallback (recommended for CI).
+model_path = "models/forge-7b-q4.gguf"
+temperature = 0.9
+top_p = 0.95
+
+[cache]
+path = "cache/forge_cache.json"
+
+[trademark]
+ttl_hours = 72
+
+[scoring]
+phonetic = 0.35
+brevity = 0.25
+distinctiveness = 0.25
+memorability = 0.15
